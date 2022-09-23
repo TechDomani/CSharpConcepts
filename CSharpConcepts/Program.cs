@@ -10,12 +10,8 @@
             // Calls the exercises code
             Exercises.Run();
 
-            Console.WriteLine("Press any key to exit");
+            Console.WriteLine("Press enter to exit the program");
             Console.ReadLine();
-        }
-
-       
-
-       
+        }  
     }
 }
