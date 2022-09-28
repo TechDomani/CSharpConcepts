@@ -58,7 +58,7 @@ namespace CSharpConcepts
             };
             List<int> totalTestScores = IterationExamples.FindTotalTestScore(testScores);
             string totalTestScoreOutput = string.Join(", ", totalTestScores);
-            Console.WriteLine($"Total test scores are {totalTestScoreOutput}");           
+            Console.WriteLine($"Total test scores are {totalTestScoreOutput}");         
 
         }
 

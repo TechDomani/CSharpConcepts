@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using CSharpConcepts.Classes.Exercises.Diary;
+using CSharpConcepts.Classes.Exercises.BankAccount;
 
 namespace CSharpConcepts
 {
@@ -11,7 +12,7 @@ namespace CSharpConcepts
     {
         internal static void Run()
         {
-            //
+            UseDiary();
         }
 
         internal static void UseDiary()
@@ -29,7 +30,9 @@ namespace CSharpConcepts
 
         internal static void UseBankAccount()
         {
-            // Implement your bank account class following the instructions
+            // Implement your bank account class following the instructions in the BankAccount class
+
+            // Write calling code from here
         }
     }
 }

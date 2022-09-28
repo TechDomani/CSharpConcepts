@@ -22,8 +22,8 @@ namespace CSharpConcepts.Classes.Exercises.Diary
 
         public void AddEvent(DateOnly date, int hours, string description, string location, int minutes=0, int duration=60)
         {
-            TimeOnly time = new TimeOnly(hours, minutes);
-            DiaryEvent diaryEvent = new DiaryEvent(date, time, minutes, description, location);
+            var time = new TimeOnly(hours, minutes);
+            var diaryEvent = new DiaryEvent(date, time, minutes, description, location);
             diaryEvents.Add(diaryEvent);
         }
 
