@@ -28,7 +28,7 @@
             {
                 Console.WriteLine("You do not have sisters");
             }
-            if (!(hasBrothers || hasSisters))
+            if (!hasBrothers && !hasSisters)
             {
                 Console.WriteLine("You are an only child");
             }
@@ -55,6 +55,7 @@
             }
             return grade;
         }
+
         public static string LiftTakeoff(int numberOfPassengers, double averageWeightInPounds)
         {
             // Use of constants
